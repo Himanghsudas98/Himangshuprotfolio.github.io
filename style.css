@@ -259,7 +259,7 @@
 .sidebar nav li {
         list-style: none;
         font-size: 20px;
-        padding: 18px 0px;
+        padding: 18px 0;
     }
     
 .sidebar nav li a{
@@ -268,7 +268,7 @@
         color: black;
     }
 .cross{
-    margin-left: 150px;
+    margin-left: 130px;
 }    
 }
 
