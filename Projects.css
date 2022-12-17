@@ -101,23 +101,24 @@
 
 @media (max-width: 850px) {
    
-
+    
+    
     .sidebar{
         background-color: rgb(187, 181, 181) ;
         height: 200vw;
-        width: 40vw;
+        width: 50vw;
         font-family:'Times New Roman', Times, serif;
         transition: transform 0.3s ease-in;
     }
     .sidebar nav{
-            padding: 85px;
+            padding: 95px;
             
         }
         
     .sidebar nav li {
             list-style: none;
-            font-size: 30px;
-            padding: 33px 0px;
+            font-size: 20px;
+            padding: 18px 0px;
         }
         
     .sidebar nav li a{
@@ -126,7 +127,7 @@
             color: black;
         }
     .cross{
-        margin-left: 150px;
+        margin-left: 125px;
     }    
     }
     
