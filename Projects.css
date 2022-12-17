@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(187, 181, 181) ;
+    height: 47vw;
+    width: 15vw;
+    font-family:'Times New Roman', Times, serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+    
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+}
+.button{
+    margin-top: 20px;
+    text-decoration-line: none;
+}
+.button button{
+    padding: 7px 13px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(31, 31, 231);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.button button:hover{
+    color: blue;
+    background-color: white;
+}
+
+
+
+.blogitem{
+    margin: 20px;
+    font-family: sans-serif;
+    margin-left: 20vw;
+}
+.blogcontainer h1{
+    margin: 25px;
+    margin-left: 20vw;
+    font-family: sans-serif;
+}
+
+.blogitem p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.sidebargo{
+
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}    
+.hamburg{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.ham{
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.cross{
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+.click{
+    font-weight: bold;
+    font-size: 15px;
+    top: 15px;
+    left: 70px;
+    position:absolute;
+}
+
+
+@media (max-width: 850px) {
+   
+
+    .sidebar{
+        background-color: rgb(187, 181, 181) ;
+        height: 200vw;
+        width: 40vw;
+        font-family:'Times New Roman', Times, serif;
+        transition: transform 0.3s ease-in;
+    }
+    .sidebar nav{
+            padding: 85px;
+            
+        }
+        
+    .sidebar nav li {
+            list-style: none;
+            font-size: 30px;
+            padding: 33px 0px;
+        }
+        
+    .sidebar nav li a{
+        
+            text-decoration: none;
+            color: black;
+        }
+    .cross{
+        margin-left: 150px;
+    }    
+    }
+    
+    
