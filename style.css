@@ -224,8 +224,26 @@
    
 
 .devpic img{
-    display: none;
+    display: flex;
+    height: 20vh;
   }
+ .hello{
+    font-size: 35px;
+   }
+ .name{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+ .about{
+    font-size: 30px;
+
+}   
+.moreabout{
+    font-size: 16px;
+    margin-top: 23px;
+
+}   
 .sidebar{
     background-color: rgb(187, 181, 181) ;
     height: 200vw;
@@ -240,8 +258,8 @@
     
 .sidebar nav li {
         list-style: none;
-        font-size: 30px;
-        padding: 33px 0px;
+        font-size: 20px;
+        padding: 18px 0px;
     }
     
 .sidebar nav li a{
