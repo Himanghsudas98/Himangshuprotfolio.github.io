@@ -247,19 +247,19 @@
 .sidebar{
     background-color: rgb(187, 181, 181) ;
     height: 200vw;
-    width: 40vw;
+    width: 50vw;
     font-family:'Times New Roman', Times, serif;
     transition: transform 0.3s ease-in;
 }
 .sidebar nav{
-        padding: 85px;
+        padding: 95px;
         
     }
     
 .sidebar nav li {
         list-style: none;
         font-size: 20px;
-        padding: 18px 0;
+        padding: 18px 0px;
     }
     
 .sidebar nav li a{
